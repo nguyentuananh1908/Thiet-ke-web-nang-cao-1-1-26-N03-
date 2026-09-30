@@ -13,7 +13,7 @@
 | Cách nạp và xác minh CSDL trực tuyến | [deployment/README.md](deployment/README.md) |
 | Mâu thuẫn tài liệu và phát hiện backend | [source-review.md](session03/source-review.md) |
 | Bảng kiểm và chỉ số nộp bài | [checklist.md](session03/checklist.md) |
-
+s
 ## Kiểm tra và mở tài liệu
 
 Yêu cầu Node.js tương thích dependency backend (môi trường đã dùng Node 24). Từ thư mục `backend`:
