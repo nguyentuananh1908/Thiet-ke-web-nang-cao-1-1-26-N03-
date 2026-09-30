@@ -188,7 +188,7 @@ const DashboardPage: React.FC = () => {
                   <YAxis stroke="rgba(255,255,255,0.3)" fontSize={11} tickFormatter={(v) => `${(v / 1000000).toFixed(0)}M`} />
                   <Tooltip
                     contentStyle={{ background: '#1a1a2e', border: '1px solid rgba(124,58,237,0.3)', borderRadius: 10 }}
-                    formatter={(v: number) => [formatCurrency(v), 'Đã gây quỹ']}
+                    formatter={(v: any) => [formatCurrency(v), 'Đã gây quỹ']}
                   />
                   <Area type="monotone" dataKey="received" stroke="#7c3aed" strokeWidth={2} fill="url(#gradReceived)" />
                 </AreaChart>

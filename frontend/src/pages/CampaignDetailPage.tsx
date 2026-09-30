@@ -333,7 +333,7 @@ const CampaignDetailPage: React.FC = () => {
                       <Tooltip
                         contentStyle={{ background: '#1a1a2e', border: '1px solid rgba(124,58,237,0.3)', borderRadius: 10 }}
                         labelStyle={{ color: 'var(--text-secondary)' }}
-                        formatter={(v: number) => [formatCurrency(v), 'Đã gây quỹ']}
+                        formatter={(v: any) => [formatCurrency(v), 'Đã gây quỹ']}
                       />
                       <Area type="monotone" dataKey="amount" stroke="#7c3aed" strokeWidth={2} fill="url(#colorAmount)" />
                     </AreaChart>
